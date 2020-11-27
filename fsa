@@ -1,0 +1,42 @@
+[33mcommit 3a9acc9a2686e2d02861bcf37816e2493be0e0f8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: KiranDulam <kiransaichandra@gmail.com>
+Date:   Tue Aug 11 09:34:53 2020 -0400
+
+    add readme file
+
+[33mcommit 4fe6520d603f1ae266b3e7e4a3e214f9005067bf[m
+Merge: 011d891 b04042a
+Author: KiranDulam <kiransaichandra@gmail.com>
+Date:   Tue Aug 11 09:21:49 2020 -0400
+
+    Merging loginbranch1 with Master after addingsomefiles for loginform html files
+
+[33mcommit b04042a02345f04235181a8f6e52d2d5fed7eeb7[m[33m ([m[1;32mloginbranch1[m[33m)[m
+Author: KiranDulam <kiransaichandra@gmail.com>
+Date:   Tue Aug 11 09:18:55 2020 -0400
+
+    commiting all changes in loginbranch1
+
+[33mcommit 57bb3e3d04ec8651b4412677537621b4175455eb[m
+Author: KiranDulam <kiransaichandra@gmail.com>
+Date:   Tue Aug 11 09:12:58 2020 -0400
+
+    login form commit
+
+[33mcommit 011d891673e2d0708c134b4bda102de121eec6c5[m
+Author: KiranDulam <kiransaichandra@gmail.com>
+Date:   Tue Aug 11 09:10:08 2020 -0400
+
+    Commiting old files in Master Branch
+
+[33mcommit 61b0d05e4f73a19d380ad1c6b0e99ad74859e49d[m
+Author: KiranDulam <kiransaichandra@gmail.com>
+Date:   Tue Aug 11 08:34:48 2020 -0400
+
+    changed app1js.js file
+
+[33mcommit 9d6c3a08e1d696057183acfa0829faf816a548e5[m
+Author: KiranDulam <kiransaichandra@gmail.com>
+Date:   Tue Aug 11 08:29:58 2020 -0400
+
+    I
