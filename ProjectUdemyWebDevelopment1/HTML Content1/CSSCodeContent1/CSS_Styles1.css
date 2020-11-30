@@ -6,3 +6,42 @@ h4{
     color: skyblue;
     width: 30%;
 }
+
+/* Testing multiple classes combination with elements ids and other classes for CSS */
+.testClass1{
+    color:red;
+}
+
+.testClass1 .testInnerClass1{
+    color:pink;
+}
+
+div.testClass1 .testInnerClass2{
+    color:orange;
+}
+
+div.testClass1 #testInnerClassId1{
+    color:green;
+}
+
+/* Below one element id combo is not working */
+div #testId1{
+    color:red;
+}
+
+#testId1 #testInnerId1{
+    color:darkorchid;
+}
+
+
+div.testInnerClass3{
+    color:yellow;
+}
+
+#testId3 .testInnerClass4{
+    color:orange;
+}
+
+.SameClass1.SameClass2{
+    color:limegreen;
+}
