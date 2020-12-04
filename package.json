@@ -2,7 +2,7 @@
   "name": "gitprojapp1",
   "version": "1.0.0",
   "description": "gitprojapp1_NPMinit1_desc1_120420",
-  "main": "app1.js",
+  "main": "app.js",
   "directories": {
     "doc": "docs"
   },
@@ -22,5 +22,6 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
