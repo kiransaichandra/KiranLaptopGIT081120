@@ -1,0 +1,26 @@
+{
+  "name": "gitprojapp1",
+  "version": "1.0.0",
+  "description": "gitprojapp1_NPMinit1_desc1_120420",
+  "main": "app1.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiransaichandra/KiranLaptopGIT081120.git"
+  },
+  "author": "Kiran Dulam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiransaichandra/KiranLaptopGIT081120/issues"
+  },
+  "homepage": "https://github.com/kiransaichandra/KiranLaptopGIT081120#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
