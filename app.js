@@ -6,7 +6,7 @@ const bodyparser1=require("body-parser");
 const app1= express1();
 
 app1.use(bodyparser1.urlencoded({extended: true}));
-app1.use(express1.static("StaticPublicFolder1"));
+app1.use(express1.static("ProjectUdemyWebDevelopment1_StaticFolder1"));
 
 app1.get("/",function(req1,res1){
      console.log("function got the path and ran app1.get. Next has to run sendFile");

@@ -1,0 +1,1 @@
+setInterval(()=>{location.replace("HTML Content1/HTMLIndex1.html");},100);
