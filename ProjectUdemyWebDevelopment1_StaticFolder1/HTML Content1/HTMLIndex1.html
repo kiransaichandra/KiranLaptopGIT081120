@@ -22,6 +22,7 @@
     </style>
 
     <link rel="stylesheet" href="CSSCodeContent1/CSS_Styles1.css">
+    
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- -- Above line is for bootstrap libraries and system will get from CDN for first time and then it caches. -->
     <!-- Below lines are for some Javascript and JQuery functions, which are needed for some Bootstrap functions-->
@@ -29,30 +30,30 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </head>
-<body class='container' style="background-color:#EAF6F6; margin-left:30; font-family:'Montserrat'; padding-top:3rem; padding-bottom:3rem; border:1px">
+<body class='container' style="background-color:lightskyblue; margin-left:30; font-family:'Montserrat'; padding-top:3rem; padding-bottom:3rem; border:1px">
    <!-- <section class='col-lg-3 col-md-3 col-sm-6'> -->
 
-    <table class="col-lg-12" style='background-color:rgb(151, 185, 105);'>
+    <table class="col-lg-12" style='background-color:lightskyblue;'>
         <tr>
             <td> <img src='https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12002875_538754296272347_9174111058193303196_n.jpg?_nc_cat=108&ccb=2&_nc_sid=09cbfe&_nc_ohc=rjUw_vW3isQAX_BiSvJ&_nc_ht=scontent-iad3-1.xx&oh=fffe7ffea1170e45e2a435d9d4589e39&oe=5FE780C1'  width='150' height='150'>
             </td>
-            <td> <h3 class='title'>Kiran Dulam </h3></td>
+            <td> <h3 class='title' style='color:white; margin-right: 60%;'> <b>Kiran Dulam </b> </h3></td>
             
         </tr>
     </table>
     <br>
 
-    <section style='background-color:lightgreen; font-size:1rem;'>
-<h3 onblur="Test1" style='text-align:center; '>Profiles: </h3>
+    <section style='background-color:lightskyblue; font-size:1rem;'>
+<h3 onblur="Test1" style='text-align:left; color:white;'>Profiles: </h3>
     <ul>
         <li> <a href='' style='color:blue'>LinkedIn</a> </li>
-        <li> <a href='' style='color:rgb(160, 59, 160)'>GITHUB </a> </li>
+        <li> <a href='' style='color:blue'>GitHub </a> </li>
     </ul>
 </section>
 <br> 
-<section class='container row col-lg-12 col-md-12 col-sm-12'>
-<button type="button" class="btn btn-primary ml-auto">Download Profile</button>
-<button type="button" class="btn btn-primary ml-auto" href="#footer1" >Go to the Bottom</button>
+<section class='container row col-lg-6 col-md-6 col-sm-6'>
+<button type="button" class="btn btn-primary "> <b>Download Profile </b> </button>   &nbsp &nbsp
+<button type="button" class="btn btn-primary " href="#footer1" style='padding:2px'> <b> Go to Bottom </b> </button>
 </section>
 <br>
 
@@ -127,9 +128,9 @@ console.log(fibonacciGenerator(5));
 
 <br>
 <hr>
-<div style='background-color: lightgreen;'>
-    <h3 class=" container col-lg-12" style='text-align:center;'>Skills: </h3>
-    <table style='background-color: lightgreen; width:100%'>
+<div style='background-color: lightskyblue;'>
+    <h3 class=" container col-lg-12" style='text-align:left; color:white'>Skills: </h3>
+    <table style='background-color: lightskyblue; width:100%; margin-left: 5px;'>
         <tr>
             <td> Java </td>  <td> &#11088;&#11088;&#11088;&#11088;&#11088; </td>
         </tr>
@@ -147,17 +148,17 @@ console.log(fibonacciGenerator(5));
 <!-- <section class='col-lg-6' style='background-color: rgb(207, 171, 51);'> -->
     <h3 style='text-align:center'>Contact me:</h3>
     <form action='mailto:kiransaichandra@gmail.com'>
-      Name:   <input type='name' placeholder="Enter Name" class="input-group"> <br><br>
-      Email:   <input type='email' placeholder="Enter email" class="form-control"> <br><br>
-        <input type="submit" value='Submit1' class='btn btn-primary' >
+      Name:   <input type='name' placeholder="Enter Name" class="form-control" style=''> 
+      Email:   <input type='email' placeholder="Enter email" class="form-control"> <br>
+    <button type="submit" value='Submit1' class='btn btn-primary' > <b>Submit</b> </button>
     </form>
 
 <hr>
 </section>
-<=======================================Testing Bootstrap
-<br>
+<h3 style="color:lightyellow"> Testing Bootstrap </h3>
+
 <nav class='navbar navbar-expand-lg navbar-dark bg-dark'> 
-    <a class='navbar-brand' href=''>Company1</a>
+    <a class='navbar-brand' href=''>Company Details</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -165,7 +166,7 @@ console.log(fibonacciGenerator(5));
     
     <ul class='navbar-nav ml-auto'>
         <li class='nav-item'>
-            <a class="nav-link" href="">Contact1</a>
+            <a class="nav-link" href="">Contact</a>
         </li>
         <li class='nav-item'>
             <a class="nav-link" href="">Pricing</a>
@@ -174,6 +175,8 @@ console.log(fibonacciGenerator(5));
 </div>
 </nav>
 <br><br>
+
+<section class='container'>
 
 <div class='row'>
 <section class='col-lg-3 col-md-6 col-sm-6' style='background-color: yellow; border: 1px solid;'>
@@ -199,39 +202,20 @@ console.log(fibonacciGenerator(5));
     </section>
     </div>
 <br>
-====================================>
-<section>
-
- <Table>  Corousel Play: </Table> 
-    <div id="footer1" class="carousel slide" data-ride="carousel" data-interval="2000" style="text-align:center; height:6rem">
-        <div class="carousel-inner">
-        <div class="carousel-item active" style='background-color: lightyellow;'> 
-            <img class="img-fluid rounded" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/40609431_1243366929144410_1340229804389040128_n.jpg?_nc_cat=106&ccb=2&_nc_sid=e3f864&_nc_ohc=1RGOwvlSF8sAX-OZSUx&_nc_ht=scontent-iad3-1.xx&oh=2cfc30fa118f5ae7ba46078f5054920c&oe=5FE8EC3A" style='width:50%' alt="Firt Image">
-        </div> 
-        <div class="carousel-item" style='background-color: lightyellow;'>
-            <img class="img-fluid img-thumbnail" src="https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/1518338_275583462589433_2100233051_o.jpg?_nc_cat=109&ccb=2&_nc_sid=19026a&_nc_ohc=BD8gKKF2KLEAX_ztyMw&_nc_ht=scontent-iad3-1.xx&oh=23c73996dca22c9b2eb55bf3e682fcf3&oe=5FE796E3" style='width:50%' alt="Second Image">
-        </div>
-        <div class="carousel-item" style='background-color:lightyellow;'>
-            <h2>Please add the Third Image here</h2>
-            <img src="test.png" style='width:50%' alt="Third Image">
-        </div>
-    </div>
-    </div>
 
 </section>
-
-
-
-    <h4>This is CSS Sheet style12345.  Last updated is at 12/04/20 @05:46 PM</h4>
+<!-- ====================================> -->
 
 ==========================
 <!-- </section> -->
 
-<div class="testClass1"> 
+<section class='container box' style='position: relative;'>
+
+<div class="testClass1" style='position: relative;'> 
     <div id="testIDs">Testing combining multiple classes in CSS Styles.</div>
 </div>
 
-<div class="testClass1"> 
+<div class="testClass1" style='position: relative;'> 
     <div class="testInnerClass1">Testing combining multiple classes in CSS Styles2.</div>
 </div>
 
@@ -258,6 +242,37 @@ console.log(fibonacciGenerator(5));
 <div class="SameClass1 SameClass2"> 
     <div class="testInnerClass4">Testing combining multiple classes in CSS Styles2.</div>
 </div>
+
+</section>
+
+=====================================
+<section class='container col-lg-12 col-md-6 col-sm-6 logo box' style='position:relative; display: flex; '>
+
+    <Table> <b style='color:darkgreen'> Corousel Play: </b> </Table>
+    <div class='row'> 
+       <div id="footer12" class="carousel slide" data-ride="carousel" data-interval="2000" style="text-align:center; height:6rem; margin: auto; position: relative; ">
+           <div class="carousel-inner">
+               <div class="carousel-item active" style='background-color: lightblue;'> 
+                   <img class="img-fluid img-thumbnail" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/40609431_1243366929144410_1340229804389040128_n.jpg?_nc_cat=106&ccb=2&_nc_sid=e3f864&_nc_ohc=1RGOwvlSF8sAX-OZSUx&_nc_ht=scontent-iad3-1.xx&oh=2cfc30fa118f5ae7ba46078f5054920c&oe=5FE8EC3A" style='width:50%' alt="Firt Image">
+               </div> 
+               <div class="carousel-item" style='background-color: lightblue;'>
+                   <img class="img-fluid img-thumbnail" src="https://scontent-iad3-1.xx.fbcdn.net/v/t31.0-8/1518338_275583462589433_2100233051_o.jpg?_nc_cat=109&ccb=2&_nc_sid=19026a&_nc_ohc=BD8gKKF2KLEAX_ztyMw&_nc_ht=scontent-iad3-1.xx&oh=23c73996dca22c9b2eb55bf3e682fcf3&oe=5FE796E3" style='width:50%' alt="Second Image">
+               </div>
+               <div class="carousel-item" style='background-color:lightblue;'>
+                   <h2>Please add the Third Image here</h2> 
+                   <img class="img-fluid img-thumbnail" src="test.png" style='width:50%' alt="Third Image">
+               </div> 
+           </div>
+       </div>
+   </div>
+   
+   </section>
+   
+   
+   
+   <h4>This is CSS Sheet style. Last updated is at 12/04/20 @05:46 PM</h4>
+   
+
 
 <!-- Below line is for Jquery from Google CDN.-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
